@@ -62,12 +62,12 @@ sh run_test.sh
 ```
 or 
 ```
-CUDA_VISIBLE_DEVICES=0 python main.py --evaluate True --calc-pck True --calc-miou True --resume exps/snapshots/mula_lip_best.pth.tar
+CUDA_VISIBLE_DEVICES=0 python main.py --evaluate True --calc-pck True --calc-miou True --resume exps/snapshots/mula_lip.pth.tar
 ```
 
 Run the following command to evaluate the model on LIP `testing set`:
 ```
-CUDA_VISIBLE_DEVICES=0 python main.py --evaluate True --resume exps/snapshots/mula_lip_best.pth.tar --eval-data dataset/lip/testing_images --eval-anno dataset/lip/jsons/LIP_SP_TEST_annotations.json
+CUDA_VISIBLE_DEVICES=0 python main.py --evaluate True --resume exps/snapshots/mula_lip.pth.tar --eval-data dataset/lip/testing_images --eval-anno dataset/lip/jsons/LIP_SP_TEST_annotations.json
 ```
 
 In particular, human pose estimation results will be saved as a `.csv` file followed the official evaluation format of LIP dataset for single-person human pose estimation. An example is provided in `exps/preds/csv_results/pred_keypoints_lip.csv`. Human parsing prediction results will be saved as a set of `.png` images in the folder `exps/preds/parsing_results`, representing the segmentation label maps for testing images.
