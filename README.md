@@ -16,7 +16,7 @@ This repository contains the code and pretrained models of
 1. Install Pytorch: Please follow the [official instruction](https://pytorch.org/) on installation of Pytorch.
 2. Clone the repository   
    ```
-   git clone --recursive https://github.com/NieXC/pytorch-pil.git
+   git clone --recursive https://github.com/NieXC/pytorch-mula.git
    ``` 
 3. Download [Look into Person (LIP)](http://sysu-hcp.net/lip/overview.php) dataset and create symbolic links to the following directories
    ```
