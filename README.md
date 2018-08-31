@@ -50,7 +50,7 @@ Some configurable parameters in training phase:
 - `-b` mini-batch size   
 - `--lr` initial learning rate (0.0015 for HG based model and 0.0001 for VGG based model)
 - `--epochs` total number of epochs for training
-- `--snapshot-fname-prefix` prefix of file name for snapshot, e.g. if set '--snapshot-fname-prefix exps/snapshots/mula_lip', then 'mula_lip.pth.tar' (latest model) and 'mula_lip_best.pth.tar' (model with best validation accuracy) will be generated in the folder 'exps/snapshots' 
+- `--snapshot-fname-prefix` prefix of file name for snapshot, e.g. if set '--snapshot-fname-prefix exps/snapshots/mula_lip', then 'mula_lip.pth.tar' (latest model), 'mula_lip_pose_best.pth.tar' (model with best validation PCK for human pose estimation) and 'mula_lip_parsing_best.pth.tar' (model with best validation mIoU for human parsing) will be generated in the folder 'exps/snapshots' 
 - `--resume` path to the model for recovering training
 - `-j` number of workers for loading data
 - `--print-freq` print frequency
