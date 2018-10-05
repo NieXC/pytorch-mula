@@ -83,6 +83,8 @@ Some configurable parameters in testing phase:
 - `--visualization` visualize evaluation or not
 - `--vis-dir` directory for saving the visualization results
 
+The models generated with this code can be downloaded here: [GoogleDrive](https://drive.google.com/drive/folders/1nhMQS6ZJyioJanKm73IozNOduvTZ61Ot)
+
 ## Citation
 
 If you use our code in your work or find it is helpful, please cite the paper:
